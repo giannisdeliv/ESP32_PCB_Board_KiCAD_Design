@@ -16,7 +16,9 @@ I did the schematic capture, layout, and fabrication outputs.
 
 
 
-The custom footprint library "ESP32_Project_Footprints" and its 3D models were provided by the course and are not redistributed here. The footprints are embedded in "Demo.kicad_pcb", so the layout opens and can be inspected without them. Updating the PCB from the schematic requires the original library.
+The custom footprint library "ESP32_Project_Footprints" and its 3D models were provided by the course and are not redistributed here. 
+The footprints are embedded in "Demo.kicad_pcb", so the layout opens. 
+Updating the PCB from the schematic requires the original library.
 
 
 (Design only, not fabricated or tested.)
