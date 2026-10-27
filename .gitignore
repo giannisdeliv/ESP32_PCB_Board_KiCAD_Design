@@ -1,0 +1,13 @@
+# KiCad temporary / local files
+*-backups/
+_autosave-*
+*.lck
+fp-info-cache
+*.kicad_prl
+~*
+\#auto_saved_files\#
+
+# 3D models from the course (not redistributed)
+3D_models/
+*.step
+*.stp
