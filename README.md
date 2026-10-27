@@ -1,6 +1,7 @@
 # ESP32-C3 Sensor Board
 
-4-layer environmental sensor board built around the ESP32-C3, designed in KiCad as part of the Udemy course *Advanced PCB Design with KiCad 9*. The design follows the course project. I did the schematic capture, layout, and fabrication outputs.
+It has been designed in KiCad as part of the Udemy course *Advanced PCB Design with KiCad 9*. The design follows the course. 
+I did the schematic capture, layout, and fabrication outputs.
 
 ![3D view](docs/Demo_3D_View.png)
 
@@ -13,36 +14,16 @@
 - **Storage / UI:** microSD slot, status LEDs, Boot and Reset buttons
 - **Debug:** test points on the SPI bus, pin headers for expansion
 
-## Board
-
-| | |
-|---|---|
-| Layers | 4 (F.Cu, In1.Cu, In2.Cu, B.Cu) |
-| Thickness | 1.6 mm |
-| Components | 88 footprints, mostly 0805 passives |
-| Tool | KiCad 10 |
 
 ## Schematic
 
-Hierarchical, 4 sheets: root, ESP32-C3 / USB / flash, sensors, user interface.
 Full PDF: [docs/Demo_Schematic_pdf.pdf](docs/Demo_Schematic_pdf.pdf)
 
 ## Files
 
-| Path | Contents |
-|---|---|
-| `Demo.kicad_pro` | KiCad project |
-| `*.kicad_sch` | Schematic sheets |
-| `Demo.kicad_pcb` | PCB layout |
-| `docs/Demo_Schematic_pdf.pdf` | Schematic, all sheets |
-| `docs/Demo_3D_View.png` | 3D view |
-| `docs/Demo_BOM.csv` | Bill of materials |
-| `fabrication/gerbers.zip` | Gerbers and drill files, ready for upload to a PCB manufacturer |
-
 ## Libraries
 
-The custom footprint library (`ESP32_Project_Footprints`) and its 3D models were provided by the course and are not redistributed here. The footprints are embedded in `Demo.kicad_pcb`, so the layout opens and can be inspected without them. Updating the PCB from the schematic requires the original library.
+The custom footprint library "ESP32_Project_Footprints" and its 3D models were provided by the course and are not redistributed here. The footprints are embedded in "Demo.kicad_pcb", so the layout opens and can be inspected without them. Updating the PCB from the schematic requires the original library.
 
-## Status
 
-Design only. Not yet fabricated or tested.
+(Design only, not fabricated or tested.)
