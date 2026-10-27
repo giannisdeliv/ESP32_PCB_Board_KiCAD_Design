@@ -15,13 +15,6 @@ I did the schematic capture, layout, and fabrication outputs.
 - **Debug:** test points on the SPI bus, pin headers for expansion
 
 
-## Schematic
-
-Full PDF: [docs/Demo_Schematic_pdf.pdf](docs/Demo_Schematic_pdf.pdf)
-
-## Files
-
-## Libraries
 
 The custom footprint library "ESP32_Project_Footprints" and its 3D models were provided by the course and are not redistributed here. The footprints are embedded in "Demo.kicad_pcb", so the layout opens and can be inspected without them. Updating the PCB from the schematic requires the original library.
 
