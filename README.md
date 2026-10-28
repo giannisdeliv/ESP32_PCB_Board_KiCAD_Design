@@ -1,6 +1,7 @@
 # ESP32-C3 Sensor Board
 
-It has been designed in KiCad as part of the Udemy course *Advanced PCB Design with KiCad 9*. The design follows the course. 
+It has been designed in KiCad as part of the Udemy course *Advanced PCB Design with KiCad 9*.(udemy.com/course/advanced-pcb-design-with-kicad/)
+The design follows the course. 
 I did the schematic capture, layout, and fabrication outputs.
 
 ![3D view](docs/Demo_3D_View.png)
